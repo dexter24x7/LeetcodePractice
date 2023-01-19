@@ -1,0 +1,136 @@
+Index: src/MergeSortedArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/MergeSortedArray.java b/src/MergeSortedArray.java
+new file mode 100644
+--- /dev/null	(date 1674148294079)
++++ b/src/MergeSortedArray.java	(date 1674148294079)
+@@ -0,0 +1,20 @@
++import java.util.Arrays;
++
++public class MergeSortedArray {
++    public static void main(String[] args) {
++    int[] nums1= {1,2,3,0,0,0};
++    int[] nums2= {2,5,6};
++    int m=nums1.length-nums2.length, n= nums2.length;
++    merge(nums1,m,nums2,n);
++    }
++
++    static void merge(int[] nums1, int m, int[] nums2, int n) {
++        for (int i = m; i < m+n; i++)
++                nums1[i] = nums2[i-m];
++        Arrays.sort(nums1);
++        System.out.print("[");
++        for (int num : nums1)
++            System.out.print(num+", ");
++        System.out.println("]");
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"08d3d85c-20a9-42cd-b224-eda5499e8b26\" name=\"Changes\" comment=\"Problem121\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"fe6fdca9-a80d-4448-8ad1-dab223a9ac8c\" />\r\n        <option name=\"url\" value=\"https://github.com/dexter24x7/LeetcodePractice.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HjLlS4uxxSvM2dPg7scsRVFhjz\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showScratchesAndConsoles\" value=\"false\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"full.screen.before.presentation.mode\": \"false\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"NumberPalindrome\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"NumberPalindrome\" />\r\n      <module name=\"Leetcode\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RomanToInt\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"RomanToInt\" />\r\n      <module name=\"Leetcode\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UglyNumber\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"UglyNumber\" />\r\n      <module name=\"Leetcode\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ValidParentheses\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ValidParentheses\" />\r\n      <module name=\"Leetcode\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ValidParentheses\" />\r\n        <item itemvalue=\"Application.RomanToInt\" />\r\n        <item itemvalue=\"Application.NumberPalindrome\" />\r\n        <item itemvalue=\"Application.UglyNumber\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"08d3d85c-20a9-42cd-b224-eda5499e8b26\" name=\"Changes\" comment=\"\" />\r\n      <created>1668793697526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1668793697526</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"New\">\r\n      <created>1668884473867</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668884473867</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"New\">\r\n      <created>1668884723768</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668884723768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Problem121\">\r\n      <created>1674066150209</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674066150209</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Problem121\">\r\n      <created>1674069839880</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674069839880</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"TLE_Fix\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/master\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"New\" />\r\n    <MESSAGE value=\"Problem121\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Problem121\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 00b1901d9a82123e4d00ae0cfa20d2b2e4ea1e2d)
++++ b/.idea/workspace.xml	(date 1674148045778)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem121" />
++    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem121">
++      <change afterPath="$PROJECT_DIR$/src/MergeSortedArray.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -24,11 +27,12 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
+   }
+-}]]></component>
++}</component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -57,7 +61,8 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "full.screen.before.presentation.mode": "false"
++    "full.screen.before.presentation.mode": "false",
++    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week4/UnionIntersection.java"
+   }
+ }]]></component>
+   <component name="RunManager">
+@@ -91,9 +96,9 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.NumberPalindrome" />
+         <item itemvalue="Application.ValidParentheses" />
+         <item itemvalue="Application.RomanToInt" />
+-        <item itemvalue="Application.NumberPalindrome" />
+         <item itemvalue="Application.UglyNumber" />
+       </list>
+     </recent_temporary>
+@@ -135,15 +140,27 @@
+       <option name="project" value="LOCAL" />
+       <updated>1674069839880</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Problem121">
++      <created>1674070948032</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1674070948032</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+-        <entry key="MAIN">
++        <entry key="778d238e-b756-4187-b943-b2eacfeb8fc2">
+           <value>
+             <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
+               <option name="FILTERS">
+                 <map>
+                   <entry key="branch">
+@@ -158,6 +175,16 @@
+             </State>
+           </value>
+         </entry>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="OPEN_GENERIC_TABS">
++      <map>
++        <entry key="778d238e-b756-4187-b943-b2eacfeb8fc2" value="TOOL_WINDOW" />
+       </map>
+     </option>
+     <option name="RECENT_FILTERS">
