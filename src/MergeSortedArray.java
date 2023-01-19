@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class MergeSortedArray {
     public static void main(String[] args) {
@@ -9,9 +8,11 @@ public class MergeSortedArray {
     }
 
     static void merge(int[] nums1, int m, int[] nums2, int n) {
-        for (int i = m; i < m+n; i++)
-                nums1[i] = nums2[i-m];
-        Arrays.sort(nums1);
+        while(m>0 && n>0){
+            nums1[m+n-1]=nums1[m-1]>nums2[n-1]?nums1[--m] :nums2[--n];
+        }
+        while (n>0)
+            nums1[--n]=nums2[n];
         System.out.print("[");
         for (int num : nums1)
             System.out.print(num+", ");
