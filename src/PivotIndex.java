@@ -12,6 +12,7 @@ public class PivotIndex {
         int[] nums = {1,7,3,6,5,6};
         System.out.println(pivotIndex2(nums));
     }
+    //Approach 1
     public static int pivotIndex(int[] nums) {
         int size = nums.length;
         int[] forwardSum =new int[size];
@@ -30,6 +31,7 @@ public class PivotIndex {
             return size-1;
     return -1;
     }
+    //Approach 2
     public static int pivotIndex2(int[] nums) {
         int sum=0, leftSum=0;
         for (int x: nums) sum+=x;
