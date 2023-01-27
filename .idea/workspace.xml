@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 724">
-      <change afterPath="$PROJECT_DIR$/src/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-01-2023_23_16_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-01-2023_23_16__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19-01-2023_23_20_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19-01-2023_23_20__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 169">
+      <change beforePath="$PROJECT_DIR$/src/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MajorityElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674669391520</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Problem 724">
+      <created>1674843184255</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674843184255</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Problem 169">
+      <created>1674843255294</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674843255294</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +271,7 @@
     <MESSAGE value="Problem 128" />
     <MESSAGE value="Problem 62" />
     <MESSAGE value="Problem 724" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 724" />
+    <MESSAGE value="Problem 169" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem 169" />
   </component>
 </project>

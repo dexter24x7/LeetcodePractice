@@ -10,7 +10,9 @@ public class MajorityElement {
     public static void main(String[] args) {
         int[] arr = {2,3,3,2,3};
         System.out.println(majorityElement(arr));
+        System.out.println(majorityElement2(arr));
     }
+    //Approach 1 Sol 1
     public static int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int res=nums[0], count=0, maxCount= 0;
@@ -26,5 +28,10 @@ public class MajorityElement {
         }
 
     return res;
+    }
+    //Approach 1 Sol 2
+    public static int majorityElement2(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length / 2];
     }
 }
