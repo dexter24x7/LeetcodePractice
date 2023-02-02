@@ -9,7 +9,7 @@ import java.util.Comparator;
 
 public class MergeIntervals {
     public static void main(String[] args) {
-        int[][] intervals = {{5,7},{1,3},{4,5}};
+        int[][] intervals = {{6,7},{1,3},{4,5}};
 
         System.out.println(Arrays.deepToString(merge(intervals)));
     }
