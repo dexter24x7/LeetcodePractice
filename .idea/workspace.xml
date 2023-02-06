@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 160">
-      <change afterPath="$PROJECT_DIR$/src/RemoveNtNodeFromEndOfList.java" afterDir="false" />
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 19">
+      <change afterPath="$PROJECT_DIR$/src/DeleteNodeInLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675621549262</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Problem 19">
+      <created>1675630615260</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675630615260</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,6 +383,7 @@
     <MESSAGE value="Problem 141" />
     <MESSAGE value="Problem 24" />
     <MESSAGE value="Problem 160" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 160" />
+    <MESSAGE value="Problem 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem 19" />
   </component>
 </project>
