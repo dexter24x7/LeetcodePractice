@@ -1,3 +1,5 @@
+package Arrays;
+
 //283. Move Zeroes
 /*Given an integer array numbers, move all 0's to the end of it while maintaining the relative order of the non-zero elements.*/
 public class MoveZeroes {

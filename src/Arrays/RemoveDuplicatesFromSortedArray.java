@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Arrays;
 
 //26. Remove Duplicates from Sorted Array

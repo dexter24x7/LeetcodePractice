@@ -1,3 +1,5 @@
+package Maths;
+
 import java.util.Scanner;
 public class NumberPalindrome {
     public static boolean isNumberPalindrome(int x){

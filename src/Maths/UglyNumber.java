@@ -1,4 +1,4 @@
-//import java.sql.SQLOutput;
+package Maths;//import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class UglyNumber {

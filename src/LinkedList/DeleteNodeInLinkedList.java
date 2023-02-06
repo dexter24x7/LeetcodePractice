@@ -1,4 +1,4 @@
-//237. Delete Node in a Linked List
+package LinkedList;//237. Delete Node in a Linked List
 /*
 There is a singly-linked list head and we want to delete a node "node" in it.
 You are given the node to be deleted node. You will not be given access to the first node of head.

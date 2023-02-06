@@ -1,3 +1,5 @@
+package Arrays;
+
 public class RunningSum {
     static int[] runningSum(int[] nums) {
         int size = nums.length;
