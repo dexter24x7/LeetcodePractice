@@ -25,8 +25,10 @@ public class BinaryInLinkedListToInteger {
             curr = curr.next;
         }
         System.out.println(getDecimalValue(head.next));
+        System.out.println(getDecimalValue2(head.next));
         System.out.println(Integer.parseInt("100100111000000",2));
     }
+    //Approach 1
     public static int getDecimalValue(ListNode head) {
         StringBuilder binaryNumber = new StringBuilder();
         //retrieve binary number from Linked List
@@ -35,5 +37,14 @@ public class BinaryInLinkedListToInteger {
             head = head.next;
         }
        return Integer.parseInt(binaryNumber.toString(),2);
+    }
+    //Approach 2
+    public static int getDecimalValue2(ListNode head) {
+        int decimalNumber = 0;
+        while (head!=null){
+            decimalNumber = decimalNumber*2+head.val;
+            head = head.next;
+        }
+        return decimalNumber;
     }
 }
