@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 203">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ThreeSum.java" afterDir="false" />
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="Problem 15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.NumberPalindrome">
+  <component name="RunManager">
     <configuration name="NumberPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Maths.NumberPalindrome" />
       <module name="Leetcode" />
@@ -383,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676053642792</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Problem 15">
+      <created>1676225290607</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225290607</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,6 +446,7 @@
     <MESSAGE value="Problem 1290" />
     <MESSAGE value="Problem 142" />
     <MESSAGE value="Problem 203" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 203" />
+    <MESSAGE value="Problem 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem 15" />
   </component>
 </project>
