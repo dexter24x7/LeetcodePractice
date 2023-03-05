@@ -14,8 +14,8 @@ Do not allocate extra space for another array. You must do this by modifying the
  */
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
-        int[] nums = {1};
-        System.out.println(removeDuplicates(nums));
+        int[] nums = {1,1,1,2,2,3};
+        System.out.println("Unique elements stored in array till element "+removeDuplicates(nums));
         System.out.println(Arrays.toString(nums));
     }
     public static int removeDuplicates(int[] nums) {
