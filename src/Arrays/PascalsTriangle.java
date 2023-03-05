@@ -19,13 +19,18 @@ public class PascalsTriangle {
         int numRows= sc.nextInt();
         List<List<Integer> > pascalTriangle;
         pascalTriangle = generate(numRows);
-        System.out.println(pascalTriangle);
+        for (int i = 0; i < pascalTriangle.size(); i++) {
+            for (int j = 0; j < pascalTriangle.size() - i; j++) {
+                System.out.print(' ');
+            }
+            System.out.println(pascalTriangle.get(i));
+        }
     }
 
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer> > pascalTriangle = new ArrayList<>();
         for (int i = 0; i < numRows; i++) {
-        List<Integer> temp  = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
             for (int j = 0; j <= i; j++) {
                 if (j==0 || j==i)
                     temp.add(j,1);
