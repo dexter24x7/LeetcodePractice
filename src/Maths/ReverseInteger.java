@@ -17,7 +17,7 @@ public class ReverseInteger {
                     revNum == Integer.MAX_VALUE/10 && digit>Integer.MAX_VALUE%10)
                 return 0;
             if(revNum < Integer.MIN_VALUE/10 ||
-                    revNum == Integer.MIN_VALUE/10 && digit>Integer.MAX_VALUE%10)
+                    revNum == Integer.MIN_VALUE/10 && digit<Integer.MIN_VALUE%10)
                 return 0;
             revNum = revNum*10+digit;
         }
