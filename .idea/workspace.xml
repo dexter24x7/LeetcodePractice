@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="update ReverseInteger to math">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add FindTheTownJudge to Graphs">
       <change afterPath="$PROJECT_DIR$/src/Strings/Search.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/TripletTargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/BestTimeToBuyAndSellStockII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/BestTimeToBuyAndSellStockII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/UniquePaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,13 +71,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockII">
+  <component name="RunManager" selected="Application.FindTheTownJudge">
     <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.BestTimeToBuyAndSellStockII" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheTownJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.FindTheTownJudge" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Maths.UglyNumber" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ValidParentheses" />
       <module name="Leetcode" />
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheTownJudge" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.NumberPalindrome" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668793697526</updated>
-    </task>
-    <task id="LOCAL-00001" summary="New">
-      <created>1668884473867</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668884473867</updated>
     </task>
     <task id="LOCAL-00002" summary="New">
       <created>1668884723768</created>
@@ -461,7 +459,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680856828633</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update BestTimeToBuyAndSellStockII in Arrays">
+      <created>1685174325429</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685174325429</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add graphs package">
+      <created>1685174368258</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1685174368258</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add FindIfPathExists to Graphs">
+      <created>1685174413383</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1685174413383</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add FindTheTownJudge to Graphs">
+      <created>1685202262469</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1685202262469</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,10 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Problem 128" />
-    <MESSAGE value="Problem 62" />
-    <MESSAGE value="Problem 724" />
-    <MESSAGE value="Problem 169" />
     <MESSAGE value="Problem 509" />
     <MESSAGE value="Problem 977" />
     <MESSAGE value="Problem 118" />
@@ -518,6 +540,10 @@
     <MESSAGE value="update output for RemoveDuplicatesFromSortedArray" />
     <MESSAGE value="add ReverseInteger to math" />
     <MESSAGE value="update ReverseInteger to math" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ReverseInteger to math" />
+    <MESSAGE value="update BestTimeToBuyAndSellStockII in Arrays" />
+    <MESSAGE value="add graphs package" />
+    <MESSAGE value="add FindIfPathExists to Graphs" />
+    <MESSAGE value="add FindTheTownJudge to Graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FindTheTownJudge to Graphs" />
   </component>
 </project>
