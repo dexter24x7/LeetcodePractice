@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add EmployeeImportance to Graphs">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add MaximumTwinSumOfALinkedList to LinkedList">
       <change afterPath="$PROJECT_DIR$/src/Strings/Search.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/TripletTargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -143,20 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668793697526</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Problem121">
-      <created>1674150743370</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674150743370</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Problem283">
-      <created>1674191079168</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1674191079168</updated>
     </task>
     <task id="LOCAL-00008" summary="Problem Running Sum">
       <created>1674302779864</created>
@@ -487,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685376158744</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add MaximumTwinSumOfALinkedList to LinkedList">
+      <created>1685458538249</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1685458538249</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add MaximumTwinSumOfALinkedList to LinkedList">
+      <created>1685469145731</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1685469145731</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Problem 26" />
     <MESSAGE value="Problem 56" />
     <MESSAGE value="Problem 141" />
     <MESSAGE value="Problem 24" />
@@ -544,6 +543,7 @@
     <MESSAGE value="add AllPathsFromSourceToTarget to Graphs" />
     <MESSAGE value="add FindCenterofStarGraph to Graphs" />
     <MESSAGE value="add EmployeeImportance to Graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add EmployeeImportance to Graphs" />
+    <MESSAGE value="add MaximumTwinSumOfALinkedList to LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MaximumTwinSumOfALinkedList to LinkedList" />
   </component>
 </project>
