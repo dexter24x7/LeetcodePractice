@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 import java.util.Scanner;
 //to be completed
 /*
@@ -10,8 +12,7 @@ public class PermutationSequence {
         if (n==0)
             return "";
         int digit= (int)Math.ceil((double)k / factorial(n - 1));
-        String s = Integer.toString(digit) + getPermutation(n - 1, (int) (k % factorial(n - 1)));
-        return s;
+        return digit + getPermutation(n - 1, (int) (k % factorial(n - 1)));
     }
     static double factorial(int n){
         if (n<=0)
