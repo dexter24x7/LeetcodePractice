@@ -11,8 +11,8 @@ The test cases are generated so that the answer will be less than or equal to 2 
 public class UniquePaths {
     public static void main(String[] args) {
         int m=6, n=6;
-//        System.out.println("Brute Force Approach");
-//        System.out.println(uniquePaths(m-1,n-1));
+        System.out.println("Brute Force Approach");
+        System.out.println(uniquePaths(m-1,n-1));
         System.out.println("Optimised Approach");
         System.out.println(uniquePaths2(m-1,n-1));
     }
@@ -30,11 +30,12 @@ public class UniquePaths {
     //Optimised approach
     static int uniquePaths2(int m, int n){
         double res =1;
-        for (int i = 1; i <= m+n; i++) {
-            if (i<=m)
-                res/=i;
-            if (i>n)
-                res*=i;
+        // (m-1+n-1)!/((m-1)!*(n-1)!)
+        for (int i = 1; i <= m+n-2; i++) {
+            if (i<m)
+                res/=i;//(m-1)!
+            if (i>n-1)
+                res*=i;//(m+n-2)!/((n-1)!)
         }
         return (int)Math.round(res);
     }
