@@ -7,7 +7,6 @@
     <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add CountingBits to Dynamic Programming">
       <change afterPath="$PROJECT_DIR$/src/Strings/Search.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/TripletTargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668793697526</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Problem 169">
-      <created>1674844930108</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1674844930108</updated>
     </task>
     <task id="LOCAL-00019" summary="Problem 509">
       <created>1674847706127</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686905022203</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add CountingBits to Dynamic Programming">
+      <created>1687112378924</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1687112378924</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
