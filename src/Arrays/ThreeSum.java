@@ -10,8 +10,8 @@ Notice that the solution set must not contain duplicate triplets.
 public class ThreeSum {
     public static void main(String[] args) {
         int[] nums = {-1,0,1,2,-1,-4};
-        List<List<Integer>> res = new ArrayList<>();
         System.out.println(threeSum1(nums));
+        System.out.println(threeSum(nums));
 
     }
     //Brute force approach
@@ -50,21 +50,21 @@ public class ThreeSum {
         return res;
     }
 
-    //two pointer approach
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
+    //two pointer approach with HashSet
+    public static List<List<Integer>> threeSum(int[] nums) {
+        Set<List<Integer>> ans = new HashSet<>();
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 2; i++) {
             int k = nums.length-1;
             for (int j = i+1; j < k; ) {
                 int sum = nums[i]+nums[j]+nums[k];
                 if (sum==0)
-                    res.add(new ArrayList<>(Arrays.asList(nums[i],nums[j++],nums[k--])));
+                    ans.add(new ArrayList<>(Arrays.asList(nums[i],nums[j++],nums[k--])));
                 if (sum<0) j++;
                 if (sum>0) k--;
             }
         }
-        return res;
+        return new ArrayList<>(ans);
     }
 
 }
