@@ -11,27 +11,22 @@ DO NOT allocate another 2D matrix and do the rotation.
 public class RotateImage {
     //Approach 1: Swapping corners
     public static void rotate(int[][] matrix) {
-        int n = matrix.length;
-        int dx = 0;
-        while(n>1){
-            int top = dx/2;
-            int bottom = dx/2 + n -1;
-            int left = dx/2;
-            int right = dx/2 + n -1;
+        int left = 0;
+        int right = matrix.length-1;
+        while(left<right){
+            for(int i=0; i<(right-left); i++){
+                int top=left;
+                int bottom = right;
 
-            for(int i=0; i<n-1;i++){
-                swap(matrix, new int[]{top,left+i}, new int[]{top+i,right}, new int[]{bottom,right-i}, new int[]{bottom-i,left});
+                int topLeft = matrix[top][left+i];
+                matrix[top][left+i] = matrix[bottom-i][left];
+                matrix[bottom-i][left] = matrix[bottom][right-i];
+                matrix[bottom][right-i] = matrix[top+i][right];
+                matrix[top+i][right] = topLeft;
             }
-            dx += 2;
-            n = matrix.length - dx;
+            right-=1;
+            left+=1;
         }
-    }
-    public static void swap(int[][] matrix, int[] first, int[] second, int[] third, int[] fourth){
-        int temp = matrix[first[0]][first[1]];
-        matrix[first[0]][first[1]] =  matrix[fourth[0]][fourth[1]];
-        matrix[fourth[0]][fourth[1]] = matrix[third[0]][third[1]];
-        matrix[third[0]][third[1]] = matrix[second[0]][second[1]];
-        matrix[second[0]][second[1]] = temp;
     }
 
     //Approach 2: Transpose and flip columns
