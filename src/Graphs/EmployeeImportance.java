@@ -18,11 +18,14 @@ import java.util.List;
 import java.util.Queue;
 
 public class EmployeeImportance {
+    HashMap<Integer, Employee> empMap;
     public int getImportance(List<Employee> employees, int id) {
 
         //Create HashMap to store employee vs id
-        HashMap<Integer, Employee> empMap = new HashMap<>();
-        employees.forEach(emp -> empMap.put(emp.id,emp));
+        if(empMap == null){
+            empMap = new HashMap<>();
+            employees.forEach(emp -> empMap.put(emp.id,emp));
+        }
         int imp = 0;
 
         //queue to add the employee subordinates
