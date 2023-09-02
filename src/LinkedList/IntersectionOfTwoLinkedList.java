@@ -7,7 +7,7 @@ If the two linked lists have no intersection at all, return null.
 Note that the linked lists must retain their original structure after the function returns.
  */
 public class IntersectionOfTwoLinkedList {
-    static class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -68,5 +68,29 @@ public class IntersectionOfTwoLinkedList {
             head = head.next;
         }
         return size;
+    }
+
+    //Approach 2
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        ListNode skipA =headA;
+        ListNode skipB =headB;
+        /*
+        Intuition: if each pointer traverse twice on both lists they will meet together at end or at meeting point.
+         */
+        while(true){
+            if(skipA ==null) skipA=headB;
+            if(skipB ==null) break;
+            skipA = skipA.next;
+            skipB = skipB.next;
+        }
+        skipB=headA;
+        while(true){
+            if(skipA ==null) skipA=headB;
+            if(skipB==null) break;
+            if(skipB ==skipA) break;
+            skipA = skipA.next;
+            skipB = skipB.next;
+        }
+        return skipB;
     }
 }
