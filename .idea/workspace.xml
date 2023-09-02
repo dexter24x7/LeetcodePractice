@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="refactor RotateImage to Arrays package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="refactor IntersectionOfTwoLinkedList in LinkedList package">
       <change afterPath="$PROJECT_DIR$/src/Arrays/ProductOfArrayExceptSelf.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/Search.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/TripletTargetSum.java" afterDir="false" />
@@ -78,13 +78,13 @@
       <recent name="Miscellaneous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateImage">
-    <configuration name="AddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.AddStrings" />
+  <component name="RunManager" selected="Application.WordBreak">
+    <configuration name="AllNodesDistanceKInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.AllNodesDistanceKInBinaryTree" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ContainerWithMostWater" />
+    <configuration name="CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.CountGoodNodesInBinaryTree" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RotateImage" />
+    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.DecodeWays" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SpiralMatrix" />
+    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.LowestCommonAncestorOfBinaryTree" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SubarraySumEqualsK" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.WordBreak" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.SubarraySumEqualsK" />
-        <item itemvalue="Application.AddStrings" />
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.DecodeWays" />
+        <item itemvalue="Application.AllNodesDistanceKInBinaryTree" />
+        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
+        <item itemvalue="Application.CountGoodNodesInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -506,8 +506,19 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <option name="localTasksCounter" value="123" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -538,31 +549,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add graphs package" />
-    <MESSAGE value="add FindIfPathExists to Graphs" />
-    <MESSAGE value="add FindTheTownJudge to Graphs" />
-    <MESSAGE value="add AllPathsFromSourceToTarget to Graphs" />
-    <MESSAGE value="add FindCenterofStarGraph to Graphs" />
-    <MESSAGE value="add EmployeeImportance to Graphs" />
-    <MESSAGE value="add MaximumTwinSumOfALinkedList to LinkedList" />
-    <MESSAGE value="add FindTheWinnerOfTheCircularGame to Arrays" />
-    <MESSAGE value="create Hashing Package" />
-    <MESSAGE value="add LongestSubstringWithoutRepeatingCharacters to Hashing" />
-    <MESSAGE value="refactor classes in src folder to 'Miscellaneous' package" />
-    <MESSAGE value="add DivisorGame to Dynamic Programming" />
-    <MESSAGE value="add MaximumSubArray to Dynamic Programming" />
-    <MESSAGE value="add Leetcode 70 ClimbingStairs to Dynamic Programming" />
-    <MESSAGE value="refactor UniquePaths to include comments" />
-    <MESSAGE value="add CountingBits to Dynamic Programming" />
-    <MESSAGE value="add AddStrings to Strings package" />
-    <MESSAGE value="add ThreeSum to Arrays Package" />
-    <MESSAGE value="add InsertDeleteGetRandom to Arrays package" />
-    <MESSAGE value="add SubarraySumEqualsK to Arrays package" />
-    <MESSAGE value="add NextPermutation to Arrays package" />
-    <MESSAGE value="add SpiralMatrix to Arrays package" />
-    <MESSAGE value="add ContainerWithMostWater to Arrays package" />
-    <MESSAGE value="add RotateImage to Arrays package" />
-    <MESSAGE value="refactor RotateImage to Arrays package" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor RotateImage to Arrays package" />
+    <MESSAGE value="add NumberOfIslands to Arrays package" />
+    <MESSAGE value="add FindAllNumbersDisappearedInArray to Arrays package" />
+    <MESSAGE value="add FindAllDuplicatesInArray to Arrays package" />
+    <MESSAGE value="add KdiffPairsInArray to Arrays package" />
+    <MESSAGE value="add Subsets to Arrays package" />
+    <MESSAGE value="add SubarraySumsDivisibleByK to Arrays package" />
+    <MESSAGE value="add FirstMissingPositive to Arrays package" />
+    <MESSAGE value="add Trees package" />
+    <MESSAGE value="add SameTree to Trees package" />
+    <MESSAGE value="add LowestCommonAncestorOfBinarySearchTree to Trees package" />
+    <MESSAGE value="add PathSum to Trees package" />
+    <MESSAGE value="add MinimumAbsoluteDifferenceInBST to Trees package" />
+    <MESSAGE value="add SumOfLeftLeaves to Trees package" />
+    <MESSAGE value="add BalancedBinaryTree to Trees package" />
+    <MESSAGE value="add BinaryTreeInorderTraversal to Trees package" />
+    <MESSAGE value="add CountGoodNodesInBinaryTree to Trees package" />
+    <MESSAGE value="add LowestCommonAncestorOfBinaryTree to Trees package" />
+    <MESSAGE value="add BinaryTreeRightSideView to Trees package" />
+    <MESSAGE value="add AllNodesDistanceKInBinaryTree to Trees package" />
+    <MESSAGE value="refactor EmployeeImportance in Graphs package" />
+    <MESSAGE value="add EvaluateDivision to Graphs package" />
+    <MESSAGE value="add DecodeWays to DynamicProgramming package" />
+    <MESSAGE value="add WordBreak to DynamicProgramming package" />
+    <MESSAGE value="add MaximumProductSubarray to DynamicProgramming package" />
+    <MESSAGE value="refactor IntersectionOfTwoLinkedList in LinkedList package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor IntersectionOfTwoLinkedList in LinkedList package" />
   </component>
 </project>
