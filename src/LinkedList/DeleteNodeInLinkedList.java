@@ -12,14 +12,6 @@ All the values after node should be in the same order.
  */
 
 public class DeleteNodeInLinkedList {
-    static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
         int delete = 4;

@@ -10,14 +10,6 @@ The number of nodes in the list is sz.
 1 <= n <= sz
  */
 public class RemoveNtNodeFromEndOfList {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
     public static void main(String[] args) {
         int[] arr = {1,2};
         int n= 2;

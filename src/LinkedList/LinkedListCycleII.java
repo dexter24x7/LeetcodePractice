@@ -9,15 +9,6 @@ Do not modify the linked list.
  */
 
 public class LinkedListCycleII {
-    //user defined linked-list class
-    static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         ListNode head = new ListNode(-1);

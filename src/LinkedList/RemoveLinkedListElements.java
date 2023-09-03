@@ -6,15 +6,6 @@ of the linked list that has Node.val == val, and return the new head.
  */
 
 public class RemoveLinkedListElements {
-  static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(){}
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
         ListNode head = new ListNode(-1);

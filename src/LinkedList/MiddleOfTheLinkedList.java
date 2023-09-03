@@ -5,15 +5,7 @@ Given the head of a singly linked list, return the middle node of the linked lis
 If there are two middle nodes, return the second middle node.
  */
 public class MiddleOfTheLinkedList {
-    static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(){}
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
+
     public static void main(String[] args) {
         int[] arr = {1,2,3};
         ListNode head = new ListNode(-1);

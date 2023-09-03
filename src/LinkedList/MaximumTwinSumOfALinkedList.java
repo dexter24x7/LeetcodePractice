@@ -9,19 +9,12 @@ The twin sum is defined as the sum of a node and its twin.
 Given the head of a linked list with even length, return the maximum twin sum of the linked list.
  */
 public class MaximumTwinSumOfALinkedList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
     /** 1.Find the mid of the LL
      2.Reverse the second half of the LL
      3.Find the sum of pairs from fwd and the rev Lists
      4.Return the max of the sum pairs
      */
-    public int pairSum(ListNode head) {
+    public static int pairSum(ListNode head) {
         //res stores the max sum of the pair
         int res = Integer.MIN_VALUE;
         ListNode slow = head, fast = head;
@@ -45,7 +38,7 @@ public class MaximumTwinSumOfALinkedList {
     }
     /**Function to reverse the Linked List
      */
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
 
@@ -57,6 +50,16 @@ public class MaximumTwinSumOfALinkedList {
         }
 
         return prev;
+    }
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        ListNode head = new ListNode(-1);
+        ListNode curr = head;
+        for (int j : arr) {
+            curr.next = new ListNode(j);
+            curr = curr.next;
+        }
+        System.out.println(pairSum(head));
     }
 }
 

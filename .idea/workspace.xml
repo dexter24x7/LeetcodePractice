@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add ReverseLinkedList to LinkedList package.">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="refactor MaximumTwinSumOfALinkedList in LinkedList package.">
       <change afterPath="$PROJECT_DIR$/src/Arrays/ProductOfArrayExceptSelf.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/Search.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Strings/TripletTargetSum.java" afterDir="false" />
@@ -77,22 +77,9 @@
       <recent name="Miscellaneous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordBreak">
+  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
     <configuration name="AllNodesDistanceKInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.AllNodesDistanceKInBinaryTree" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.CountGoodNodesInBinaryTree" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -130,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ProductOfArrayExceptSelf" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.WordBreak" />
       <module name="Leetcode" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.DecodeWays" />
         <item itemvalue="Application.AllNodesDistanceKInBinaryTree" />
         <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
-        <item itemvalue="Application.CountGoodNodesInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,8 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add KdiffPairsInArray to Arrays package" />
-    <MESSAGE value="add Subsets to Arrays package" />
     <MESSAGE value="add SubarraySumsDivisibleByK to Arrays package" />
     <MESSAGE value="add FirstMissingPositive to Arrays package" />
     <MESSAGE value="add Trees package" />
@@ -573,6 +571,8 @@
     <MESSAGE value="add DesignHashSet to LinkedList package." />
     <MESSAGE value="add DesignHashMap to LinkedList package." />
     <MESSAGE value="add ReverseLinkedList to LinkedList package." />
-    <option name="LAST_COMMIT_MESSAGE" value="add ReverseLinkedList to LinkedList package." />
+    <MESSAGE value="add PalindromeLinkedList to LinkedList package." />
+    <MESSAGE value="refactor MaximumTwinSumOfALinkedList in LinkedList package." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor MaximumTwinSumOfALinkedList in LinkedList package." />
   </component>
 </project>

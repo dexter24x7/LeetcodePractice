@@ -4,11 +4,7 @@ package LinkedList;
 Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
  */
 public class PalindromeLinkedList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int val) { this.val = val; }
-    }
+
     public static boolean isPalindrome(ListNode head) {
         if(head.next==null) return true;
         ListNode slow = head, fast = head;

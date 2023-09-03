@@ -6,16 +6,6 @@ The linked list holds the binary representation of a number. Return the decimal 
 The most significant bit is at the head of the linked list.
  */
 public class BinaryInLinkedListToInteger {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     public static void main(String[] args) {
         int[] arr = {1,0,0,1,0,0,1,1,1,0,0,0,0,0,0};
         ListNode head = new ListNode(-1);

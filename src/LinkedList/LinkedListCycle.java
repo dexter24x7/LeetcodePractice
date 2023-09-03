@@ -9,16 +9,6 @@ node that tail's next pointer is connected to. Note that pos is not passed as a 
 Return true if there is a cycle in the linked list. Otherwise, return false.
  */
 public class LinkedListCycle {
-
-    //user defined linked-list class
-    static class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         ListNode head = new ListNode(-1);
