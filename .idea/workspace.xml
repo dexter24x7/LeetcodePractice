@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add TimeBasedKeyValueStore to BinarySearch package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add MaxConsecutiveOnesIII to SlidingWindow package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +56,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/LeetcodePractice",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.scopes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/LeetcodePractice&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSON"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Miscellaneous" />
@@ -505,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,19 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add MinimumAbsoluteDifferenceInBST to Trees package" />
-    <MESSAGE value="add SumOfLeftLeaves to Trees package" />
-    <MESSAGE value="add BalancedBinaryTree to Trees package" />
-    <MESSAGE value="add BinaryTreeInorderTraversal to Trees package" />
-    <MESSAGE value="add CountGoodNodesInBinaryTree to Trees package" />
-    <MESSAGE value="add LowestCommonAncestorOfBinaryTree to Trees package" />
-    <MESSAGE value="add BinaryTreeRightSideView to Trees package" />
-    <MESSAGE value="add AllNodesDistanceKInBinaryTree to Trees package" />
-    <MESSAGE value="refactor EmployeeImportance in Graphs package" />
-    <MESSAGE value="add EvaluateDivision to Graphs package" />
-    <MESSAGE value="add DecodeWays to DynamicProgramming package" />
-    <MESSAGE value="add WordBreak to DynamicProgramming package" />
-    <MESSAGE value="add MaximumProductSubarray to DynamicProgramming package" />
     <MESSAGE value="refactor IntersectionOfTwoLinkedList in LinkedList package" />
     <MESSAGE value="add DesignHashSet to LinkedList package." />
     <MESSAGE value="add DesignHashMap to LinkedList package." />
@@ -573,6 +560,19 @@
     <MESSAGE value="add CountNegativeNumbersInSortedMatrix to BinarySearch package" />
     <MESSAGE value="add PeakIndexInMountainArray to BinarySearch package" />
     <MESSAGE value="add TimeBasedKeyValueStore to BinarySearch package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TimeBasedKeyValueStore to BinarySearch package" />
+    <MESSAGE value="add SearchInRotatedSortedArray to BinarySearch package" />
+    <MESSAGE value="add PowXN to BinarySearch package" />
+    <MESSAGE value="add FindFirstAndLastPositionOfElementInSortedArray to BinarySearch package" />
+    <MESSAGE value="add FindPeakElement to BinarySearch package" />
+    <MESSAGE value="add Search2DMatrix to BinarySearch package" />
+    <MESSAGE value="add KClosestPointsToOrigin to Heaps package" />
+    <MESSAGE value="add KthLargestElementInArray to Heaps package" />
+    <MESSAGE value="add ReorganizeString to Heaps package" />
+    <MESSAGE value="add FurthestBuildingYouCanReach to Heaps package" />
+    <MESSAGE value="add KthSmallestElementInSortedMatrix to Heaps package" />
+    <MESSAGE value="add CheapestFlightsWithinKStops to Heaps package" />
+    <MESSAGE value="add LongestSubstringWithAtLeastKRepeatingCharacters to SlidingWindow package" />
+    <MESSAGE value="add MaxConsecutiveOnesIII to SlidingWindow package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MaxConsecutiveOnesIII to SlidingWindow package" />
   </component>
 </project>
