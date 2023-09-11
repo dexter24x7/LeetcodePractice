@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add MaxConsecutiveOnesIII to SlidingWindow package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add IsGraphBipartite to BFS package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,20 +77,7 @@
       <recent name="Miscellaneous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeBasedKeyValueStore">
-    <configuration name="AllNodesDistanceKInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.AllNodesDistanceKInBinaryTree" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SnakesAndLadders">
     <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.DecodeWays" />
       <module name="Leetcode" />
@@ -109,7 +96,20 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakesAndLadders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS.SnakesAndLadders" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnakesAndLadders" />
         <item itemvalue="Application.TimeBasedKeyValueStore" />
         <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.DecodeWays" />
-        <item itemvalue="Application.AllNodesDistanceKInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,17 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor IntersectionOfTwoLinkedList in LinkedList package" />
-    <MESSAGE value="add DesignHashSet to LinkedList package." />
-    <MESSAGE value="add DesignHashMap to LinkedList package." />
-    <MESSAGE value="add ReverseLinkedList to LinkedList package." />
-    <MESSAGE value="add PalindromeLinkedList to LinkedList package." />
-    <MESSAGE value="refactor MaximumTwinSumOfALinkedList in LinkedList package." />
-    <MESSAGE value="refactor LinkedList package." />
-    <MESSAGE value="add ProductOfArrayExceptSelf to Arrays package" />
-    <MESSAGE value="add BinarySearch.java to BinarySearch package" />
-    <MESSAGE value="add CountNegativeNumbersInSortedMatrix to BinarySearch package" />
-    <MESSAGE value="add PeakIndexInMountainArray to BinarySearch package" />
     <MESSAGE value="add TimeBasedKeyValueStore to BinarySearch package" />
     <MESSAGE value="add SearchInRotatedSortedArray to BinarySearch package" />
     <MESSAGE value="add PowXN to BinarySearch package" />
@@ -573,6 +562,17 @@
     <MESSAGE value="add CheapestFlightsWithinKStops to Heaps package" />
     <MESSAGE value="add LongestSubstringWithAtLeastKRepeatingCharacters to SlidingWindow package" />
     <MESSAGE value="add MaxConsecutiveOnesIII to SlidingWindow package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MaxConsecutiveOnesIII to SlidingWindow package" />
+    <MESSAGE value="add GrumpyBookstoreOwner to SlidingWindow package" />
+    <MESSAGE value="add MinStack to Stack package" />
+    <MESSAGE value="add NextGreaterElementI to Stack package" />
+    <MESSAGE value="add BackspaceStringCompare to Stack package" />
+    <MESSAGE value="add RemoveAllAdjacentDuplicatesStringII to Stack package" />
+    <MESSAGE value="add DailyTemperatures to Stack package" />
+    <MESSAGE value="add OnlineStockSpan to Stack package" />
+    <MESSAGE value="add RottingOranges to BFS package" />
+    <MESSAGE value="move NumberOfIslands to BFS package" />
+    <MESSAGE value="add SnakesAndLadders to BFS package" />
+    <MESSAGE value="add IsGraphBipartite to BFS package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IsGraphBipartite to BFS package" />
   </component>
 </project>
