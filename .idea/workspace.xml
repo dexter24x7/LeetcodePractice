@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add LetterCombinationsOfPhoneNumber to Recursion package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add LargestTimeForGivenDigits to Recursion package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -505,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,9 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add LongestSubstringWithAtLeastKRepeatingCharacters to SlidingWindow package" />
-    <MESSAGE value="add MaxConsecutiveOnesIII to SlidingWindow package" />
-    <MESSAGE value="add GrumpyBookstoreOwner to SlidingWindow package" />
     <MESSAGE value="add MinStack to Stack package" />
     <MESSAGE value="add NextGreaterElementI to Stack package" />
     <MESSAGE value="add BackspaceStringCompare to Stack package" />
@@ -573,6 +570,9 @@
     <MESSAGE value="add CombinationSumII to Recursion package" />
     <MESSAGE value="add CombinationSumIII to Recursion package" />
     <MESSAGE value="add LetterCombinationsOfPhoneNumber to Recursion package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LetterCombinationsOfPhoneNumber to Recursion package" />
+    <MESSAGE value="add PartitionToKEqualSumSubsets to Recursion package" />
+    <MESSAGE value="add FloodFill to Recursion package" />
+    <MESSAGE value="add LargestTimeForGivenDigits to Recursion package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LargestTimeForGivenDigits to Recursion package" />
   </component>
 </project>
