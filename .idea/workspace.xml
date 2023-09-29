@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="refactor NumberPalindrome in Maths package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add LengthOfLastWord to Strings Package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -505,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -548,14 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add RottingOranges to BFS package" />
-    <MESSAGE value="move NumberOfIslands to BFS package" />
-    <MESSAGE value="add SnakesAndLadders to BFS package" />
-    <MESSAGE value="add IsGraphBipartite to BFS package" />
-    <MESSAGE value="add TopKFrequentElements to Hashing package" />
-    <MESSAGE value="refactor TopKFrequentElements to Hashing package: add approach 2" />
-    <MESSAGE value="add Permutations to Recursion package" />
-    <MESSAGE value="add DesignTwitter to Hashing package" />
     <MESSAGE value="add PermutationsII to Recursion package" />
     <MESSAGE value="refactor PermutationsII to Recursion package" />
     <MESSAGE value="add SubsetsII to Recursion package" />
@@ -573,6 +565,14 @@
     <MESSAGE value="add LongestSubstringWithoutRepeatingCharacters to Strings package" />
     <MESSAGE value="add TwoSum to Arrays package" />
     <MESSAGE value="refactor NumberPalindrome in Maths package" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor NumberPalindrome in Maths package" />
+    <MESSAGE value="add AddBinary to Maths Package" />
+    <MESSAGE value="add MinimumMovesToEqualArrayElements to Maths Package" />
+    <MESSAGE value="add HappyNumber to Maths Package" />
+    <MESSAGE value="add ExcelSheetColumnTitle to Maths Package" />
+    <MESSAGE value="add MissingNumber to Maths Package" />
+    <MESSAGE value="add MaximumProductOfThreeNumbers to Maths Package" />
+    <MESSAGE value="add PowerOfTwo to Maths Package" />
+    <MESSAGE value="add LengthOfLastWord to Strings Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LengthOfLastWord to Strings Package" />
   </component>
 </project>
