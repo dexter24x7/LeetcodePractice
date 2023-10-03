@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add DeleteAndEarn to DynamicProgramming Package">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaximalSquare.java" afterDir="false" />
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add CoinChange to DynamicProgramming Package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -508,7 +506,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -551,8 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor PermutationsII to Recursion package" />
-    <MESSAGE value="add SubsetsII to Recursion package" />
     <MESSAGE value="add Combinations to Recursion package" />
     <MESSAGE value="add CombinationSum to Recursion package" />
     <MESSAGE value="add CombinationSumII to Recursion package" />
@@ -576,6 +572,8 @@
     <MESSAGE value="add PowerOfTwo to Maths Package" />
     <MESSAGE value="add LengthOfLastWord to Strings Package" />
     <MESSAGE value="add DeleteAndEarn to DynamicProgramming Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DeleteAndEarn to DynamicProgramming Package" />
+    <MESSAGE value="add MaximalSquare to DynamicProgramming Package" />
+    <MESSAGE value="add CoinChange to DynamicProgramming Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CoinChange to DynamicProgramming Package" />
   </component>
 </project>
