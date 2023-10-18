@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add BinaryTreePreorderTraversal to Trees Package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="refactor MaxAreaOfIsland in Arrays Package">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -508,7 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -551,8 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add CombinationSum to Recursion package" />
-    <MESSAGE value="add CombinationSumII to Recursion package" />
     <MESSAGE value="add CombinationSumIII to Recursion package" />
     <MESSAGE value="add LetterCombinationsOfPhoneNumber to Recursion package" />
     <MESSAGE value="add PartitionToKEqualSumSubsets to Recursion package" />
@@ -576,6 +574,8 @@
     <MESSAGE value="add MaximalSquare to DynamicProgramming Package" />
     <MESSAGE value="add CoinChange to DynamicProgramming Package" />
     <MESSAGE value="add BinaryTreePreorderTraversal to Trees Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BinaryTreePreorderTraversal to Trees Package" />
+    <MESSAGE value="add FindPivotIndex to Arrays Package" />
+    <MESSAGE value="refactor MaxAreaOfIsland in Arrays Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor MaxAreaOfIsland in Arrays Package" />
   </component>
 </project>
