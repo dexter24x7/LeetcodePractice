@@ -14,7 +14,7 @@ public class FibonacciNumbers {
         System.out.println("Enter the index of Fibonacci term: ");
         int n = sc.nextInt();
         System.out.println(fib(n));
-        System.out.println(fib2(n));
+        System.out.println(fib3(n));
     }
     //Recursion Approach
     public static int fib(int n) {
@@ -33,7 +33,7 @@ public class FibonacciNumbers {
         return b;
     }
     //good code for reference from net
-    public int fib3(int n) {
+    public static int fib3(int n) {
         if (n < 0 || n > 30) throw new RuntimeException("illegal input!");
         if (n <= 1) return n;
         int[] arr = new int[2];
@@ -41,7 +41,8 @@ public class FibonacciNumbers {
         arr[1] = 1;//fib(2)
 
         for (int i = 3; i <= n; i++) {
-            arr[i % 2] = arr[(i - 1) % 2] + arr[(i - 2) % 2]; //This part is awesome!
+//            arr[i % 2] = arr[(i - 1) % 2] + arr[(i - 2) % 2]; //This part is awesome!
+            arr[i % 2] = arr[0] + arr[1]; //This part is awesome!
         }
         return arr[n % 2];
     }
