@@ -1,0 +1,11 @@
+
+s	java:S135W"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ÃŠ™úÿÿÿÿ
+Y
+java:S2259;"CA "NullPointerException" could be thrown; "headB" is nullable here.(½•¼ä
+Y
+java:S22594"CA "NullPointerException" could be thrown; "headB" is nullable here.(½•¼ä
+^
+java:S22590"CA "NullPointerException" could be thrown; "headA" is nullable here.(ÔØ’âúÿÿÿÿ
+8
+java:S1659)"#Declare "sizeB" on a separate line.(‚ÀÆ

@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ÃŠ™úÿÿÿÿ
+`
+java:S2259%"EA "NullPointerException" could be thrown; "slowPtr" is nullable here.(ËŒÒ†şÿÿÿÿ
+:
+java:S1659"%Declare "slowPtr" on a separate line.(Õ‘4
