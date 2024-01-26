@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="update FibonacciNumbers">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bcfe2faa64ca98cf14c015594eca804f8d520ce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bcfe2faa64ca98cf14c015594eca804f8d520ce" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33ebfdbda56e4d5f8a82c9f4be5c3e87038059e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33ebfdbda56e4d5f8a82c9f4be5c3e87038059e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5577162a5153db64f19da3481cc9111c95ff7b8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5577162a5153db64f19da3481cc9111c95ff7b8" afterDir="false" />
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add StringToInteger to Maths package">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/FindTheDuplicateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -555,15 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add IndexOfFirstOccurrenceInString to Strings package" />
-    <MESSAGE value="add LongestSubstringWithoutRepeatingCharacters to Strings package" />
-    <MESSAGE value="add TwoSum to Arrays package" />
-    <MESSAGE value="refactor NumberPalindrome in Maths package" />
-    <MESSAGE value="add AddBinary to Maths Package" />
-    <MESSAGE value="add MinimumMovesToEqualArrayElements to Maths Package" />
-    <MESSAGE value="add HappyNumber to Maths Package" />
-    <MESSAGE value="add ExcelSheetColumnTitle to Maths Package" />
-    <MESSAGE value="add MissingNumber to Maths Package" />
     <MESSAGE value="add MaximumProductOfThreeNumbers to Maths Package" />
     <MESSAGE value="add PowerOfTwo to Maths Package" />
     <MESSAGE value="add LengthOfLastWord to Strings Package" />
@@ -577,9 +564,18 @@
     <MESSAGE value="add ContainsDuplicate to Arrays Package" />
     <MESSAGE value="add DetectCycleInDirectedGraph to Graphs Package" />
     <MESSAGE value="add DetectCycleInUndirectedGraph to Graphs Package" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="add LongestCommonSubsequence to Dynamic programming package" />
     <MESSAGE value="update FibonacciNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="update FibonacciNumbers" />
+    <MESSAGE value="add MinimumRemoveToMakeValidParentheses to Strings package" />
+    <MESSAGE value="add new approach for FindTheDuplicateNumber in Arrays package" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add LongestPalindromicSubstring to Strings package" />
+    <MESSAGE value="add BasicCalculatorII to Strings package" />
+    <MESSAGE value="add IntegerToRoman to Strings package" />
+    <MESSAGE value="add ReverseWordsString to Strings package" />
+    <MESSAGE value="add ZigzagConversion to Strings package" />
+    <MESSAGE value="add EncodeAndDecodeTinyURL to Maths package" />
+    <MESSAGE value="add StringToInteger to Maths package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add StringToInteger to Maths package" />
   </component>
 </project>
