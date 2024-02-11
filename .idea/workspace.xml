@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add StringToInteger to Maths package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add MaxPointsOnLine to Maths package">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -80,7 +80,20 @@
       <recent name="Miscellaneous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciNumbers">
+  <component name="RunManager" selected="Application.MaxPointsOnLine">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maths.BasicCalculator" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.FibonacciNumbers" />
       <module name="Leetcode" />
@@ -94,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ProductOfArrayExceptSelf" />
+    <configuration name="MaxPointsOnLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maths.MaxPointsOnLine" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="Maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakesAndLadders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS.SnakesAndLadders" />
+    <configuration name="MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maths.MultiplyStrings" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="Maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeBasedKeyValueStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.TimeBasedKeyValueStore" />
+    <configuration name="ThekthFactorOfn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maths.ThekthFactorOfn" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.WordBreak" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="PATTERN" value="Maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPointsOnLine" />
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.ThekthFactorOfn" />
+        <item itemvalue="Application.MultiplyStrings" />
         <item itemvalue="Application.FibonacciNumbers" />
-        <item itemvalue="Application.SnakesAndLadders" />
-        <item itemvalue="Application.TimeBasedKeyValueStore" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.WordBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -551,14 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add MaximumProductOfThreeNumbers to Maths Package" />
-    <MESSAGE value="add PowerOfTwo to Maths Package" />
-    <MESSAGE value="add LengthOfLastWord to Strings Package" />
-    <MESSAGE value="add DeleteAndEarn to DynamicProgramming Package" />
-    <MESSAGE value="add MaximalSquare to DynamicProgramming Package" />
-    <MESSAGE value="add CoinChange to DynamicProgramming Package" />
-    <MESSAGE value="add BinaryTreePreorderTraversal to Trees Package" />
-    <MESSAGE value="add FindPivotIndex to Arrays Package" />
     <MESSAGE value="refactor MaxAreaOfIsland in Arrays Package" />
     <MESSAGE value="add RemoveDuplicatesFromSortedList to LinkedList package" />
     <MESSAGE value="add ContainsDuplicate to Arrays Package" />
@@ -568,7 +560,6 @@
     <MESSAGE value="update FibonacciNumbers" />
     <MESSAGE value="add MinimumRemoveToMakeValidParentheses to Strings package" />
     <MESSAGE value="add new approach for FindTheDuplicateNumber in Arrays package" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="add LongestPalindromicSubstring to Strings package" />
     <MESSAGE value="add BasicCalculatorII to Strings package" />
     <MESSAGE value="add IntegerToRoman to Strings package" />
@@ -576,6 +567,15 @@
     <MESSAGE value="add ZigzagConversion to Strings package" />
     <MESSAGE value="add EncodeAndDecodeTinyURL to Maths package" />
     <MESSAGE value="add StringToInteger to Maths package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add StringToInteger to Maths package" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add LargestNumberto Strings package" />
+    <MESSAGE value="add MultiplyStrings to Maths package" />
+    <MESSAGE value="add AngleBetweenHandsOfClock to Maths package" />
+    <MESSAGE value="add IntegerBreak to Maths package" />
+    <MESSAGE value="add ValidSquare to Maths package" />
+    <MESSAGE value="add ThekthFactorOfn to Maths package" />
+    <MESSAGE value="add BasicCalculator to Maths package" />
+    <MESSAGE value="add MaxPointsOnLine to Maths package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MaxPointsOnLine to Maths package" />
   </component>
 </project>
