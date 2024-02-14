@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add MaxPointsOnLine to Maths package">
+    <list default="true" id="08d3d85c-20a9-42cd-b224-eda5499e8b26" name="Changes" comment="add PermutationSequence to maths package">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -80,26 +80,13 @@
       <recent name="Miscellaneous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxPointsOnLine">
+  <component name="RunManager" selected="Application.PermutationSequence">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Maths.BasicCalculator" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Maths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.FibonacciNumbers" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maths.PermutationSequence" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThekthFactorOfn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Maths.ThekthFactorOfn" />
       <module name="Leetcode" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationSequence" />
         <item itemvalue="Application.MaxPointsOnLine" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.ThekthFactorOfn" />
         <item itemvalue="Application.MultiplyStrings" />
-        <item itemvalue="Application.FibonacciNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687198800437</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor MaxAreaOfIsland in Arrays Package" />
     <MESSAGE value="add RemoveDuplicatesFromSortedList to LinkedList package" />
     <MESSAGE value="add ContainsDuplicate to Arrays Package" />
     <MESSAGE value="add DetectCycleInDirectedGraph to Graphs Package" />
@@ -567,7 +566,6 @@
     <MESSAGE value="add ZigzagConversion to Strings package" />
     <MESSAGE value="add EncodeAndDecodeTinyURL to Maths package" />
     <MESSAGE value="add StringToInteger to Maths package" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="add LargestNumberto Strings package" />
     <MESSAGE value="add MultiplyStrings to Maths package" />
     <MESSAGE value="add AngleBetweenHandsOfClock to Maths package" />
@@ -576,6 +574,8 @@
     <MESSAGE value="add ThekthFactorOfn to Maths package" />
     <MESSAGE value="add BasicCalculator to Maths package" />
     <MESSAGE value="add MaxPointsOnLine to Maths package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MaxPointsOnLine to Maths package" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add PermutationSequence to maths package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PermutationSequence to maths package" />
   </component>
 </project>
