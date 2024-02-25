@@ -27,13 +27,22 @@ public class MinimumJumpsReachHome {
         while(!bfs.isEmpty()){
             int queue = bfs.size();
             while(queue-->0){
-                boolean flag = bfs.peek()>0;
+                boolean flag = bfs.peek()<0;
                 int curr = Math.abs(bfs.poll());
-                int fwd = curr+a;
-                int back = curr-b;
+
                 if(curr==x) return jump;
-                if(!visited.contains(fwd)&&fwd<=100) bfs.add(fwd);
-                if(!visited.contains(back)&&back>0&&flag) bfs.add(-back);
+
+                int back = curr-b;
+                if(back>0 && !visited.contains(back) && !flag){
+                    bfs.offer(-back);
+                    visited.add(back);
+                }
+
+                int fwd = curr+a;
+                if(fwd<=6000 && !visited.contains(fwd)){
+                    bfs.offer(fwd);
+                    visited.add(fwd);
+                }
             }
             jump++;
         }
